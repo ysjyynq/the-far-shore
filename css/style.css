@@ -445,6 +445,27 @@ html:not([data-ready='true']) .time-control {
   opacity: 1;
   text-shadow: 0 0 9px #acdce8;
 }
+#github-source {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  top: max(110px, calc(env(safe-area-inset-top) + 92px));
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  color: #d1deeb;
+  opacity: 0.75;
+  touch-action: manipulation;
+}
+#github-source:hover,
+#github-source:focus-visible {
+  opacity: 1;
+}
+#github-source:focus-visible {
+  outline: 2px solid #c5dcec;
+  outline-offset: 3px;
+}
 #music-toggle:focus-visible {
   outline: 2px solid #c5dcec;
   outline-offset: 3px;

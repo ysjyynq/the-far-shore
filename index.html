@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#0e182b" />
+    <meta
+      name="description"
+      content="Frost-white grass, four silver-blue bushes and a weeping willow around a moonlit pool beneath a coded Milky Way."
+    />
+    <title>The Far Shore</title>
+    <link rel="stylesheet" href="./css/style.css?v=universe-clock-1" />
+    <link
+      rel="preload"
+      href="./fonts/indie-flower.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "./vendor/three.webgpu.js?v=ice-03c",
+          "three/webgpu": "./vendor/three.webgpu.js?v=ice-03c",
+          "three/tsl": "./vendor/three.tsl.js",
+          "three/addons/": "./vendor/addons/"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <main id="scene" aria-label="Interactive moonlit meadow and pool"></main>
+    <div id="loading">
+      <div class="loading-content">
+        <div
+          id="loading-progress"
+          role="progressbar"
+          aria-label="Loading scene"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+        >
+          <i aria-hidden="true"></i>
+        </div>
+        <span id="loading-percent" aria-hidden="true">0%</span>
+      </div>
+    </div>
+    <section id="error" hidden role="alert">
+      <h1>The scene couldn’t load</h1>
+      <p id="error-message"></p>
+      <button type="button" onclick="location.reload()">Try again</button>
+    </section>
+    <noscript
+      ><p class="no-script">Turn on JavaScript to open the meadow.</p></noscript
+    >
+    <output id="fps-meter" aria-label="Frames per second" aria-live="off"
+      >— FPS</output
+    >
+    <button
+      id="credits-open"
+      type="button"
+      aria-haspopup="dialog"
+      aria-label="Credits"
+      title="Credits"
+    >
+      <svg
+        width="22"
+        height="22"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="1.5"
+        aria-hidden="true"
+      >
+        <circle cx="12" cy="12" r="9" />
+        <path d="M12 11v6" stroke-linecap="round" />
+        <circle cx="12" cy="7.5" r=".9" fill="currentColor" stroke="none" />
+      </svg>
+    </button>
+    <dialog id="credits" aria-labelledby="credits-title">
+      <form method="dialog">
+        <button class="credits-close" aria-label="Close credits">×</button>
+      </form>
+      <h2 id="credits-title">With thanks</h2>
+      <p>
+        <strong>Just a Simple Tree</strong><br />Willow, bushes &amp; frost
+        palette<br /><a
+          href="https://justasimpletree.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Website</a
+        >
+        ·
+        <a
+          href="https://github.com/MikeFernandez-Pro/just-a-simple-tree"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+      <p>
+        <strong>Elemental Serenity</strong><br />Water &amp; ripples<br /><a
+          href="https://elemental-serenity.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Website</a
+        >
+        ·
+        <a
+          href="https://github.com/SahilK-027/Elemental-Serenity"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+      <p>
+        <strong>FluffyGrass</strong><br />Grass texture &amp; rendering<br /><a
+          href="https://fluffygrass.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Website</a
+        >
+        ·
+        <a
+          href="https://github.com/thebenezer/FluffyGrass"
+          target="_blank"
+          rel="noopener noreferrer"
+          >GitHub</a
+        >
+      </p>
+      <p>
+        <strong>Somnium</strong><br />Music by Adiutorium<br /><a
+          href="https://opengameart.org/content/somnium"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Source</a
+        >
+        ·
+        <a
+          href="https://creativecommons.org/publicdomain/zero/1.0/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >CC0</a
+        >
+      </p>
+      <a
+        class="credits-licenses"
+        href="./licenses/README.md"
+        target="_blank"
+        rel="noopener"
+        >Third-party licenses</a
+      >
+    </dialog>
+    <script src="./js/credits.js?v=2"></script>
+    <script src="./js/music.js"></script>
+    <script src="./js/bootstrap.js"></script>
+  </body>
+</html>

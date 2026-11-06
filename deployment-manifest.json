@@ -1,0 +1,232 @@
+[
+  {
+    "path": ".nojekyll",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "assets/models/bush-original.glb",
+    "bytes": 44992,
+    "sha256": "f4b3eb23d723024d18470f1df2d4e9b8e83b33c43fd4fd680cce1be49fffcebd"
+  },
+  {
+    "path": "assets/models/willow-original.glb",
+    "bytes": 1605492,
+    "sha256": "427e38777f1f55aa877a92ce2fe0ab2bc06270447ec73eef1daac28f15646208"
+  },
+  {
+    "path": "assets/textures/grass.png",
+    "bytes": 258859,
+    "sha256": "463a1535cb5ce4eec8fa74e74379f486addd4bce6bb6e9d11980d65c6f44bc65"
+  },
+  {
+    "path": "assets/textures/perlinnoise.webp",
+    "bytes": 9562,
+    "sha256": "518e7998a9349e4871e2e93572f293b2db1ad6531f5a2a0df65844beb9173a9b"
+  },
+  {
+    "path": "ATTRIBUTION.md",
+    "bytes": 925,
+    "sha256": "651565ac920cafeb4007f5be496b7f8784164be098283025fb148da88494d22d"
+  },
+  {
+    "path": "audio/somnium.mp3",
+    "bytes": 8762584,
+    "sha256": "fe6055d9eb118faafeb2ebb30e453b2b288c0c22d67331200c922fefb7d6a371"
+  },
+  {
+    "path": "css/style.css",
+    "bytes": 9475,
+    "sha256": "fadb310b4fe602cb66e5ae90fbb1304415cf8a47488a59cb44688ba31a6baeba"
+  },
+  {
+    "path": "deployment-check.html",
+    "bytes": 654,
+    "sha256": "a0f5610a8b41ef8bc95f932f5f781f4a166cfeb1582379751090c8a53974efdb"
+  },
+  {
+    "path": "fonts/indie-flower.ttf",
+    "bytes": 108196,
+    "sha256": "ccc94b22b156e9c5dfe50fd051f01b097600b252c24473e624bb43a143140a94"
+  },
+  {
+    "path": "index.html",
+    "bytes": 4658,
+    "sha256": "dbe84a32a3902417cd496a30917d7b1b935f28fa238d2931269229948e75ef2b"
+  },
+  {
+    "path": "js/aconite.js",
+    "bytes": 6654,
+    "sha256": "0198a32fe39e9fef1e8b5335fa93a80ce87bbfc9d7c3d094c622a48aa2c7d027"
+  },
+  {
+    "path": "js/adonis.js",
+    "bytes": 8866,
+    "sha256": "f4a1e8bc809251e20cccce3321f9336835a61c7db9e4f41b63dd297c46cb84a8"
+  },
+  {
+    "path": "js/base-comparison.js",
+    "bytes": 4053,
+    "sha256": "92e832d70bb4911d509fd550b51af5fe4126dedbc8d3c54b0230653b7ab58b2c"
+  },
+  {
+    "path": "js/bootstrap.js",
+    "bytes": 4121,
+    "sha256": "14a0a7c63e676b9da5907940b6d242759d3ab7e3a58a72d8ab6c660e3167cd82"
+  },
+  {
+    "path": "js/bushes.js",
+    "bytes": 3364,
+    "sha256": "5598c78e1341e86c17a79c17364d1d524ce433f8a1f8623bbf41d0fe133f6889"
+  },
+  {
+    "path": "js/credits.js",
+    "bytes": 1252,
+    "sha256": "c8acdfea43c6113a69cb65ae9633c70d08d5cae0308388413db9a3ce13212766"
+  },
+  {
+    "path": "js/deployment-check.js",
+    "bytes": 1863,
+    "sha256": "8613d3b1671f05924fc8d59d88a6987e23a9b8704fc282fe936cb5105ed55d16"
+  },
+  {
+    "path": "js/desktop-resolution.js",
+    "bytes": 1286,
+    "sha256": "f815869107c5134a11bc48053dfaaf42b587482f38864f510ccbe82d601fcee2"
+  },
+  {
+    "path": "js/flower-material.js",
+    "bytes": 1253,
+    "sha256": "b86373a266ff77c3958569e2aa186ec2e932784711c6c667442c69b6be0c1771"
+  },
+  {
+    "path": "js/flowers.js",
+    "bytes": 8514,
+    "sha256": "d83e69f90f357872a8ea20898590c2bdd4ba231eb340f8b144baf0b9d20bc3f4"
+  },
+  {
+    "path": "js/foliage.js",
+    "bytes": 14074,
+    "sha256": "ebe5cea1c21f49daf7e13ff29f8276eee4946d7d658f26032b7cfffb12eaf41b"
+  },
+  {
+    "path": "js/frost.js",
+    "bytes": 5182,
+    "sha256": "1e8d397813bfa227455281e028a22b5bc1848a6d3758c73faa041fcd0ca1c35c"
+  },
+  {
+    "path": "js/galaxy.js",
+    "bytes": 12656,
+    "sha256": "3827ab12149aa1779d1381a3b3f12a09994f9503bdd55e4951930086cf8737e8"
+  },
+  {
+    "path": "js/interaction-schedule.js",
+    "bytes": 660,
+    "sha256": "267847ef60150b1c5ef2d1fcb5e8f5d2f5e8c28d2dceebb055a6daf167dec7df"
+  },
+  {
+    "path": "js/island-base.js",
+    "bytes": 9679,
+    "sha256": "69a4e668a14d28f919ed6e638138f80089f37e75239c6af657a3817b5a472736"
+  },
+  {
+    "path": "js/music.js",
+    "bytes": 1335,
+    "sha256": "5de40ccb196c25ec2b6073394186cf37fd4ebc53bcd8cc17846ae5fcacb02fc0"
+  },
+  {
+    "path": "js/performance.js",
+    "bytes": 565,
+    "sha256": "d90bc019652f8ce3fde72dc6cb4c552d7d22a1ce74bf095e8f104eea8246c3a8"
+  },
+  {
+    "path": "js/picking.js",
+    "bytes": 2457,
+    "sha256": "83e112e9bf9bf3a5404713e3dc8db60ad6724cba9278263f539d55e6bdbe9c7c"
+  },
+  {
+    "path": "js/pool.js",
+    "bytes": 8441,
+    "sha256": "5ce93fd5d14bb58e4f3ed573c75e5a31e9257d552ad3ca4c5cd5f3ce7eed5493"
+  },
+  {
+    "path": "js/rock.js",
+    "bytes": 5108,
+    "sha256": "5fafe21cf1871f1bbb7c9be23a8a160bf6b9402a0f6a94d416e190eb539ac18b"
+  },
+  {
+    "path": "js/scene.js",
+    "bytes": 37169,
+    "sha256": "d6875c2ee1e0d92ec8523f40a780bb6ea46f3051abe2ef278f5f7cfd6ffab8b1"
+  },
+  {
+    "path": "js/time-dial.js",
+    "bytes": 3231,
+    "sha256": "38532d1d5ef2634c5602f1a8e70e4a5c981e00746ed9116a606b772931169c78"
+  },
+  {
+    "path": "js/willow-model.js",
+    "bytes": 1946,
+    "sha256": "5940d9dad7c96abe04c959e1f9b5d23d460325b4ce42986ca6c3cec371170169"
+  },
+  {
+    "path": "licenses/grass-MIT.txt",
+    "bytes": 1065,
+    "sha256": "174550066e28243400ea1a5987db39942b58b46ee8c56cf19c95273de5e3d852"
+  },
+  {
+    "path": "licenses/IndieFlower-OFL.txt",
+    "bytes": 4366,
+    "sha256": "d9cdb075679d15a99bab2a8541b9c4fdc71347502111fbe9affd1d462219d96b"
+  },
+  {
+    "path": "licenses/README.md",
+    "bytes": 417,
+    "sha256": "b43c2aa35eec8aabcd254388dc0d87e330505aa49df26661f48cafd97b3d8d43"
+  },
+  {
+    "path": "licenses/Somnium-CC0.txt",
+    "bytes": 331,
+    "sha256": "24f0bc46a314549dd02564a84fe33e830ad6d0d15910aa0036dcbc8a294a2a90"
+  },
+  {
+    "path": "licenses/three-MIT.txt",
+    "bytes": 1081,
+    "sha256": "bfe119ea4fd413f5f7ca3fcd63adb0c4a073ed39daa2fe7d3e6b769e21272601"
+  },
+  {
+    "path": "licenses/tree-MIT.txt",
+    "bytes": 1071,
+    "sha256": "137104f582f2393de9e73a910b04e45afbfeee8c6ec93e0e9f753b9acd983582"
+  },
+  {
+    "path": "vendor/addons/controls/OrbitControls.js",
+    "bytes": 38781,
+    "sha256": "c5d5a92da069a9316344b327772486d6c1b78982ad4f2a83b9832e0a47219edd"
+  },
+  {
+    "path": "vendor/addons/loaders/GLTFLoader.js",
+    "bytes": 114883,
+    "sha256": "a2d45c28c56774cc789b99154e914c34db3197f9ea2b89fee27600cc2509b14f"
+  },
+  {
+    "path": "vendor/addons/utils/BufferGeometryUtils.js",
+    "bytes": 35539,
+    "sha256": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751"
+  },
+  {
+    "path": "vendor/three.core.js",
+    "bytes": 1408569,
+    "sha256": "283be43b2229e15f46dac84cd19354ede5f06cac7ffb185e765cfcfb2c1eec90"
+  },
+  {
+    "path": "vendor/three.tsl.js",
+    "bytes": 33397,
+    "sha256": "6022b7041e43bccec80df0bc7de4c9bd33b013e215bb53b068f75422503034e7"
+  },
+  {
+    "path": "vendor/three.webgpu.js",
+    "bytes": 1991840,
+    "sha256": "fb99d2d84140ddb0e2dca8a8477af42a6ecfa10123f5a4ff2738f81b67663cd6"
+  }
+]

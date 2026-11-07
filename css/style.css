@@ -335,9 +335,6 @@ html:not([data-ready='true']) .base-comparison {
   user-select: none;
   text-shadow: 0 1px 5px #030611;
 }
-html:not([data-ready='true']) #fps-meter {
-  display: none;
-}
 
 .time-control {
   position: fixed;
@@ -420,9 +417,6 @@ html:not([data-ready='true']) #fps-meter {
   outline: 2px solid #c5dcec;
   outline-offset: 4px;
 }
-html:not([data-ready='true']) .time-control {
-  display: none;
-}
 
 #music-toggle {
   position: fixed;
@@ -470,6 +464,11 @@ html:not([data-ready='true']) .time-control {
   outline: 2px solid #c5dcec;
   outline-offset: 3px;
 }
+/* Reveal every scene control together after the first rendered frame. */
+html:not([data-ready='true']) #credits-open,
+html:not([data-ready='true']) #github-source,
+html:not([data-ready='true']) #fps-meter,
+html:not([data-ready='true']) .time-control,
 html:not([data-ready='true']) #music-toggle {
   display: none;
 }

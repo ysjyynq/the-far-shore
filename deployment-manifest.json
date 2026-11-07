@@ -36,8 +36,8 @@
   },
   {
     "path": "css/style.css",
-    "bytes": 9925,
-    "sha256": "1f5b4012e2ea9fc2ad06dc8715f4794b4bc134afb90033a65b2eaf5ebc430438"
+    "bytes": 10050,
+    "sha256": "b4f993df58687f9ccb5802a880bdc589a099b67f855e44d70d58d2324c8fb80a"
   },
   {
     "path": "deployment-check.html",
@@ -51,8 +51,8 @@
   },
   {
     "path": "index.html",
-    "bytes": 5596,
-    "sha256": "56bfb0210fa2d23045bb1ac6c39de3f05f46d9326fba50766e04d912fdd0c590"
+    "bytes": 5599,
+    "sha256": "cec11583439e1330a56e730845abe62db758efb8c5370eaa9ff8a870521c5fb2"
   },
   {
     "path": "js/aconite.js",

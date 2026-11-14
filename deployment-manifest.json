@@ -161,8 +161,8 @@
   },
   {
     "path": "js/time-dial.js",
-    "bytes": 3231,
-    "sha256": "38532d1d5ef2634c5602f1a8e70e4a5c981e00746ed9116a606b772931169c78"
+    "bytes": 3351,
+    "sha256": "c13b743e017081f61c4792a662bae0679876db3a40602bf234f3de97c4f0536d"
   },
   {
     "path": "js/willow-model.js",

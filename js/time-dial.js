@@ -9,9 +9,10 @@ export function createTimeDial(onTime) {
     label = panel.querySelector('output'),
     handle = panel.querySelector('i'),
     liveButton = panel.querySelector('button');
-  let target = 120,
-    current = 120,
-    live = false,
+  const now = new Date();
+  let target = now.getHours() * 60 + now.getMinutes(),
+    current = target,
+    live = true,
     dragging = false,
     lastLive = -1;
   function paint() {
@@ -70,6 +71,7 @@ export function createTimeDial(onTime) {
     liveButton.setAttribute('aria-pressed', String(live));
     lastLive = -1;
   });
+  liveButton.setAttribute('aria-pressed', String(live));
   paint();
   onTime(current);
   return {
